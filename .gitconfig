@@ -1,0 +1,16 @@
+[user]
+    name = Inkounter
+    email = inkounter@gmail.com
+[core]
+    excludesfile = ~/.gitignore.global
+    autocrlf = input
+[diff]
+    tool = vimdiff
+[push]
+    default = simple
+[pull]
+    ff = only
+[init]
+    defaultBranch = main
+[credential "https://github.com"]
+    helper = !/usr/bin/gh auth git-credential
