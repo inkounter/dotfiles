@@ -1,0 +1,13 @@
+# temporary files
+*.sw?
+
+# build outputs and standard build directories
+*.o
+*.so
+*.so.*
+*.a
+*.pyc
+
+# files that are usually just made by me
+TODO
+venv
